@@ -23,9 +23,14 @@ namespace Assignment1_wpf
         {
             InitializeComponent();
         }
-        private void btnHello_Click(object sender, RoutedEventArgs e)
+        private void openPhucWindow_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("xin chào");
+        }
+
+        private void btnBye_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("tạm biệt");
         }
     }
 }
