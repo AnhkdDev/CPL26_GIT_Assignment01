@@ -31,7 +31,7 @@ namespace Assignment1_wpf
 
         private void btnBye_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("tạm biệt");
+            MessageBox.Show("tạm biệt 12");
         }
     }
 }
